@@ -1,0 +1,39 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 180
+
+Language: Cpp
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
+AlignTrailingComments: true
+AlignAfterOpenBracket: Align
+AlignOperands: Align
+AlignEscapedNewlines: Left
+PointerAlignment: Left
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: Empty
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: true
+BinPackParameters: true
+BitFieldColonSpacing: Both
+PenaltyBreakAssignment: 240
+PenaltyReturnTypeOnItsOwnLine: 240
+NamespaceIndentation: All
+BreakBeforeBraces: Custom
+IndentCaseLabels: true
+BraceWrapping:
+ AfterCaseLabel: true
+ AfterClass: true
+ AfterFunction: false
+ AfterEnum: true
+ AfterNamespace: true
+ AfterStruct: true
+ AfterUnion: true
+ AfterControlStatement: Never
+SpaceInEmptyBlock: true
