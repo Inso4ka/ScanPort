@@ -436,3 +436,4 @@ FodyWeavers.xsd
 /out/
 /.vscode
 .DS_Store
+/build/
